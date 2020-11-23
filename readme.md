@@ -47,10 +47,10 @@ model = AutoModel.from_pretrained('ai4bharat/indic-bert')
 
 ### Setting up the Code
 
-The code can be run on GPU, TPU or on Google's Colab platform. If you want to run it on Colab, you can simply use our fine-tuning notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ai4bharat/indic-bert/blob/master/notebooks/finetuning.ipynb). For running it in your own VM, start with running the following commands:
+The code can be run on GPU, TPU or on Google's Colab platform. If you want to run it on Colab, you can simply use our fine-tuning notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sciencepal/indic-bert/blob/master/notebooks/finetuning.ipynb). For running it in your own VM, start with running the following commands:
 
 ```bash
-git clone https://github.com/AI4Bharat/indic-bert
+git clone https://github.com/sciencepal/indic-bert
 cd indic-bert
 sudo pip3 install -r requirements.txt
 ```
